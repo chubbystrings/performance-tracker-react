@@ -4,7 +4,7 @@
 
 .dashboard__sidebar {
   position: relative;
-  width: 10%;
+  width: 9%;
   background-color: #ffffff;
   height: 100vh;
 }
@@ -20,17 +20,16 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  width: 50px;
-  height: 90px;
+  width: fit-content;
   left: 42px;
   top: 220.87px;
   gap: 80px;
+  margin: 0 0 10px -10px;
 }
 
 .nav__icons {
   text-align: center;
   width: fit-content;
-  padding: 3px;
 }
 
 .logout__wrapper {
@@ -39,6 +38,8 @@
   bottom: 30px;
   width: 50px;
   text-align: center;
+  text-decoration: none;
+    color: #242424;
 }
 
 .logout__wrapper img {
@@ -47,7 +48,7 @@
 
 .dashboard__content {
   position: relative;
-  width: 90%;
+  width: 93%;
   background-color: #f4f6f8;
   height: 100vh;
   overflow: scroll;
@@ -56,9 +57,9 @@
 .dashboard__content__wrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  padding-top: 150px;
+  padding-top: 100px;
   box-sizing: border-box;
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 
 .performance__wrapper {

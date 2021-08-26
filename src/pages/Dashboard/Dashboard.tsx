@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import classes from "./Dashboard.module.css";
 import decagonLogo from "../../assets/img/logo.png";
 import studentIcon from "../../assets/img/students.svg";
@@ -28,12 +29,16 @@ const Dashboard: React.FC = () => {
             <p>Students</p>
           </div>
         </div>
-        <div className={classes["logout__wrapper"]}>
+        <Link
+          to="/
+        "
+          className={classes["logout__wrapper"]}
+        >
           <div>
             <img src={logoutIcon} alt="logout logo" />
           </div>
           <p>Logout</p>
-        </div>
+        </Link>
       </section>
       <section className={classes["dashboard__content"]}>
         <Nav />
