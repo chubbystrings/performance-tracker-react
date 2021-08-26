@@ -1,0 +1,39 @@
+.progress__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.progressGreen {
+    background-color: #EEEAEA;
+    border-radius: 13px;
+    width: 80px;
+    height: 8px;
+}
+
+.progressGreen > div {
+    background-color: #509849;
+    width: 75%;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.progressRed {
+  background-color: #EEEAEA;
+  border-radius: 13px;
+  width: 80px;
+  height: 8px;
+}
+  
+.progressRed > div {
+  background-color: red;
+  width: 43%;
+  height: 8px;
+  border-radius: 10px;
+}
