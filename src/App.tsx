@@ -1,11 +1,12 @@
-import classes from './App.module.css'
-import Routes from './routes/routes'
+import React from "react";
+import Routes from './app/routes/index'
 
-function App () {
+
+function App() {
   return (
-    <div className={classes.App}>
+    <>
       <Routes />
-    </div>
+    </>
   );
 }
 
