@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../ui/molecules/header/Header";
 import Sidebar from "../ui/molecules/sidebar/Sidebar";
 import styled from "styled-components";
-import DashboardBody from '../ui/molecules/dashboardBody/DashboardBody';
+import DashboardBody from "../ui/molecules/dashboardBody/DashboardBody";
 
 const DashboardLayout: React.FC = () => {
   return (
@@ -24,4 +24,3 @@ const Wrapper = styled.div`
   display: flex;
   background-color: #ffffff;
 `;
-

@@ -9,6 +9,10 @@ export const MobileAppBarWrapper = styled.nav`
   align-items: center;
   display: flex;
   justify-content: space-between;
+  & h3 {
+    border: 1px solid yellow;
+    font-size: 10px;
+  }
 `;
 
 export const AppBarLinks = styled.div`
@@ -19,9 +23,9 @@ export const AppBarLinks = styled.div`
 `;
 
 export const AppBarImg = styled.img`
-  height: 40px;
-  width: 44px;
-  margin: 20px;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
 `;
 export const AppBarNavLinks = styled.div`
   display: flex;
@@ -31,9 +35,9 @@ export const AppBarNavLinks = styled.div`
 `;
 export const MenuBar = styled.div`
   & img {
-    height: 40px;
-    width: 40px;
-    margin: 20px;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
   }
   & img:hover {
     cursor: pointer;
@@ -44,9 +48,10 @@ export const MenuBar = styled.div`
 `;
 
 export const Icon = styled.img`
-  margin-right: 10px;
-  width: 40px;
-  height: 40px;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  
 `;
 
 export const MainAppBarWrapper = styled.nav`

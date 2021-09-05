@@ -5,17 +5,19 @@ export const PerformanceWrapper = styled.div`
   @media screen and (min-width: 1020px) {
    margin: 10px
   }
+  
 `;
 
 export const PerformanceCard = styled.div`
-  width: 360px;
+  width: fit-content;
   height: 630px;
   background: #ffffff;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   box-sizing: border-box;
-  padding: 50px 15px 15px 15px;
+  padding: 2px;
   margin-bottom: 20px;
+  text-align: center;
   & h3 {
     text-align: center;
     font-family: Mulish;
@@ -27,10 +29,16 @@ export const PerformanceCard = styled.div`
     margin: 50px auto;
     color: #242424;
   }
+
+  @media screen and (min-width: 501px) {
+    width: 360px;
+    padding: 50px 15px 15px 15px;
+  }
+  
 `;
 
 export const PerformanceCardWrapper = styled.div`
-  width: 300px;
+  width: fit-content;
   margin: 0 auto;
 `;
 
