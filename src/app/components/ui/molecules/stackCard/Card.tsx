@@ -1,5 +1,6 @@
 import React from "react";
-import { StackCard, BigCardText, SmallCardText } from "./Card.style";
+import { StackCard } from "./Card.style";
+import Text from '../../atoms/text/Text';
 import getImageByKey from "../../../../utils/getImageByKey";
 
 const Card: React.FC<{ image: string; stack: string; noOfStudents: number }> = (
@@ -11,12 +12,12 @@ const Card: React.FC<{ image: string; stack: string; noOfStudents: number }> = (
         <img src={getImageByKey(props.image)} alt="logo" />
       </div>
       <div>
-        <SmallCardText>{props.stack}</SmallCardText>
+        <Text type="smallText">{props.stack}</Text>
       </div>
       <div>
-        <BigCardText>{props.noOfStudents}</BigCardText>
+        <Text color="#63a568"  type="bigText">{props.noOfStudents}</Text>
       </div>
-      <SmallCardText>Students</SmallCardText>
+      <Text weight="900" type="smallText">Students</Text>
     </StackCard>
   );
 };
